@@ -32,3 +32,5 @@ end
 end 
 #hit displays the invalid command message and prompts the user again if a user inputs something other than 'h' or 's' 
 end
+expect(self) .to recieve(:deal_card).at_least(3).times.and_return(10)
+end
