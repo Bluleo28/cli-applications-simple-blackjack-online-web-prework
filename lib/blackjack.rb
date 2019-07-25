@@ -4,9 +4,8 @@ expect(card) .to be > 0
 end
 expect { display_card_total(7) } .to_not raise_error
 end
+#display_card_total prints the value of the cards to the screen
 
-def prompt_user
-  # code #prompt_user here
 end
 
 def get_user_input
