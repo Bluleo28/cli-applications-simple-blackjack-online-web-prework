@@ -24,4 +24,6 @@ expect($stdout) .to recieve(:puts).with("Please enter a vlid command")
 end
 #hit? calls on #prompt_user then #get_user_input
 end
+#hit? returns an integer which is the card total 
+end 
 
