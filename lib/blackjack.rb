@@ -2,9 +2,7 @@ expect($stdout) .to recieve(:puts).with("Welcome to the Black jack Table")
 end
 expect(card) .to be > 0 
 end
-expect { display_card_total(7) }.to_not raise_error
-def
-
+expect { display_card_total(7) } .to_not raise_error
 end
 
 def prompt_user
