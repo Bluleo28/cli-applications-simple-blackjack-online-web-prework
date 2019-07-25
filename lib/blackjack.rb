@@ -28,4 +28,6 @@ end
 end 
 #hit? does not deal another card if user types 's'
 end
+#hit? deals another card when user types 'h'
+end 
 
