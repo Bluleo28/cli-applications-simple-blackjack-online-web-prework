@@ -8,9 +8,7 @@ end
 end
 #display_card_total does not hardcode the card total
 end
-
-def end_game
-  # code #end_game here
+expect ($stdout) .to recieve(:puts).with("Type 'h' to hit or 's' ro stay")
 end
 
 def initial_round
