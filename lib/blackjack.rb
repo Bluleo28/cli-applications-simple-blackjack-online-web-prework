@@ -10,9 +10,7 @@ end
 end
 expect ($stdout) .to recieve(:puts).with("Type 'h' to hit or 's' ro stay")
 end
-
-def initial_round
-  # code #initial_round here
+expect (get_user_input) .to eq(string)
 end
 
 def hit?
