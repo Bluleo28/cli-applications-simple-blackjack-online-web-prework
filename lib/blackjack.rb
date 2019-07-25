@@ -14,7 +14,7 @@ expect (get_user_input) .to eq(string)
 end
 #end_game prints apology, card total, and thank you message 
 end
-
+expect(initial_round) .to eq(12)
 def invalid_command
   # code invalid_command here
 end
