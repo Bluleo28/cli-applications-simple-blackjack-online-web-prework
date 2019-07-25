@@ -8,7 +8,7 @@ end
 end
 #display_card_total does not hardcode the card total
 end
-expect ($stdout) .to recieve(:puts).with("Type 'h' to hit or 's' ro stay")
+expect ($stdout) .to recieve(:puts).with("Type 'h' to hit or 's' to stay")
 end
 expect (get_user_input) .to eq(string)
 end
@@ -16,7 +16,7 @@ end
 end
 expect(initial_round) .to eq(12)
 end
-
+expect(self) .to recieve(:deal_card) .at_least(:twice).and_return(6)
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
