@@ -26,4 +26,6 @@ end
 end
 #hit? returns an integer which is the card total 
 end 
+#hit? does not deal another card if user types 's'
+end
 
