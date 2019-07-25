@@ -1,9 +1,6 @@
-def welcome
-  # code #welcome here
+expect($stdout) .to recieve(:puts).with("Welcome to the Black jack Table")
 end
 
-def deal_card
-  # code #deal_card here
 end
 
 def display_card_total
