@@ -20,8 +20,6 @@ expect(self) .to recieve(:deal_card) .at_least(:twice).and_return(6)
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
-
-def runner
-  # code runner here
+expect($stdout) .to recieve(:puts).with("Please enter a vlid command")
 end
     
