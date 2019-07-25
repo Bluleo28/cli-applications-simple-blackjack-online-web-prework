@@ -30,4 +30,5 @@ end
 end
 #hit? deals another card when user types 'h'
 end 
-
+#hit displays the invalid command message and prompts the user again if a user inputs something other than 'h' or 's' 
+end
