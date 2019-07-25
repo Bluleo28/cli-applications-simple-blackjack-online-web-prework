@@ -12,9 +12,7 @@ expect ($stdout) .to recieve(:puts).with("Type 'h' to hit or 's' ro stay")
 end
 expect (get_user_input) .to eq(string)
 end
-
-def hit?
-  # code hit? here
+#end_game prints apology, card total, and thank you message 
 end
 
 def invalid_command
