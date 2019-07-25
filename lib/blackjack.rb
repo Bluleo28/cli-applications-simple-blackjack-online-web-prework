@@ -5,11 +5,8 @@ end
 expect { display_card_total(7) } .to_not raise_error
 end
 #display_card_total prints the value of the cards to the screen
-
 end
-
-def get_user_input
-  # code #get_user_input here
+#display_card_total does not hardcode the card total
 end
 
 def end_game
