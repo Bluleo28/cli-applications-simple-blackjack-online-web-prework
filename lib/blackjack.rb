@@ -22,4 +22,6 @@ expect(self) .to recieve(:deal_card) .at_least(:twice).and_return(6)
 #####################################################
 expect($stdout) .to recieve(:puts).with("Please enter a vlid command")
 end
-    
+#hit? calls on #prompt_user then #get_user_input
+end
+
