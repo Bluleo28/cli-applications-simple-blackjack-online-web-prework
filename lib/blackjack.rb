@@ -1,6 +1,6 @@
 expect($stdout) .to recieve(:puts).with("Welcome to the Black jack Table")
 end
-
+expect(card) .to be > 0 
 end
 
 def display_card_total
